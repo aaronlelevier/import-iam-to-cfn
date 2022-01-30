@@ -13,4 +13,14 @@ This is working code that was created while following this documentation:
 
 First install a Python3 environment and the `requirements.txt`.
 
-The [templates/001.yaml](templates/001.yaml) template matches an example Lambda Role that was manually created in AWS with 2 managed policies attached. The [notebooks/scratchpad-no-output.ipynb](notebooks/scratchpad-no-output.ipynb) has example commands and the documentation for how to import the IAM Role to CFN and notes about the status at each step.
+## Details
+
+The [templates/001.yaml](templates/001.yaml) template matches an example Lambda Role that was manually created in AWS with a single managed policy removed.
+
+The [templates/002.yaml](templates/002.yaml) template matches an example Lambda Role that was manually created in AWS.
+
+The [notebooks/scratchpad-no-output.ipynb](notebooks/scratchpad-no-output.ipynb) notebook shows the API calls and CFN and IAM Role resource status at each step.
+
+## License
+
+MIT
