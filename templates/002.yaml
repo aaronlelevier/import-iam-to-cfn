@@ -21,7 +21,7 @@ Resources:
       Description: Allows Lambda functions to call AWS services on your behalf.
       ManagedPolicyArns: 
         - arn:aws:iam::aws:policy/service-role/AWSLambdaENIManagementAccess
-        # - arn:aws:iam::aws:policy/service-role/AmazonS3ObjectLambdaExecutionRolePolicy
+        - arn:aws:iam::aws:policy/service-role/AmazonS3ObjectLambdaExecutionRolePolicy
       RoleName: my-lambda-role
       Tags: 
         - Key: Team
