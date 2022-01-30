@@ -21,16 +21,7 @@ Resources:
       Description: Allows Lambda functions to call AWS services on your behalf.
       ManagedPolicyArns: 
         - arn:aws:iam::aws:policy/service-role/AWSLambdaENIManagementAccess
-        # missing data from what is in AWS to check drift detection
-        # - arn:aws:iam::aws:policy/service-role/AmazonS3ObjectLambdaExecutionRolePolicy
-
-      # NOTE: not including these properties yet
-      # MaxSessionDuration: Integer
-      # Path: String
-      # PermissionsBoundary: String
-      # Policies: 
-      #   - Policy
-
+        - arn:aws:iam::aws:policy/service-role/AmazonS3ObjectLambdaExecutionRolePolicy
       RoleName: my-lambda-role
       Tags: 
         - Key: Team
