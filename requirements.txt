@@ -1,3 +1,8 @@
-saws
-jupyter
+# read resources from AWS
 boto3
+
+# to save CFN templates to file system
+pyyaml
+
+# dev
+jupyterlab
